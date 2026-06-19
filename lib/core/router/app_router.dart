@@ -82,12 +82,6 @@ class AppRouter {
               TwoFANotifPage(mode: extra?['mode'] as String? ?? 'login'));
         },
       ),
-      GoRoute(
-        path: '/pay',
-        builder: (_, state) => PaymentDeeplinkPage(
-          data: state.extra,
-        ),
-      ),
       // Main app with tabs
       ShellRoute(
         builder: (context, state, child) {
