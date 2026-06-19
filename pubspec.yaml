@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  url_launcher: ^6.3.0
+
   # State Management
   flutter_bloc: ^9.0.0
   equatable: ^2.0.5
