@@ -7,6 +7,12 @@ class AppColors {
   static const Color primaryDark = Color(0xFF003A99);
   static const Color primarySurface = Color(0xFFE6F0FF);
   static const Color primaryBorder = Color(0xFF99C2FF);
+  // Secondary
+  static const Color secondary = Color(0xFF6C757D);
+  static const Color secondaryLight = Color(0xFF8A93A2);
+  static const Color secondaryDark = Color(0xFF495057);
+  static const Color secondarySurface = Color(0xFFF1F3F5);
+  static const Color secondaryBorder = Color(0xFFCED4DA);
 
   // Semantic
   static const Color green = Color(0xFF28A745);
