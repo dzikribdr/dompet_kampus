@@ -37,6 +37,7 @@ class AppColors {
   static const Color success = Color(0xFF28A745);
   static const Color warning = Color(0xFFFFA500);
   static const Color info = Color(0xFF17A2B8);
+  static const Color focus = Color(0xFF80BDFF);
   static const Color line = Color(0xFFE8ECF2);
   static const Color line2 = Color(0xFFF3F5F8);
   static const Color bg = Color(0xFFF5F6FA);
