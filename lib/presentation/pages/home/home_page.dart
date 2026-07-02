@@ -432,7 +432,7 @@ class _HomePageState extends State<HomePage> {
                 height: 120,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: const Color(0xFF5B9BFF).withValues(alpha: 0.18),
+                  color: AppColors.primaryLight.withValues(alpha: 0.18),
                 ),
               ),
             ),
