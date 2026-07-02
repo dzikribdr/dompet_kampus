@@ -19,7 +19,7 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: AppColors.bg,
       appBarTheme: const AppBarTheme(
-        backgroundColor: Colors.white,
+        backgroundColor: AppColors.white,
         elevation: 0,
         systemOverlayStyle: SystemUiOverlayStyle(
           statusBarColor: Colors.transparent,
