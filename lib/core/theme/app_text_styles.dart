@@ -84,7 +84,7 @@ class AppTextStyles {
     fontFamily: _font,
     fontSize: 30,
     fontWeight: FontWeight.w800,
-    color: AppColors.ink,
+    color: AppColors.primary,
     letterSpacing: -0.5,
   );
   static const TextStyle amountXL = TextStyle(
