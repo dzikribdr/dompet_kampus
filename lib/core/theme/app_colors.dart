@@ -9,13 +9,13 @@ class AppColors {
   static const Color primaryBorder = Color(0xFF99C2FF);
 
   // Semantic
-  static const Color green = Color(0xFF16A571);
+  static const Color green = Color(0xFF28A745);
   static const Color greenSurface = Color(0xFFE8F8F2);
-  static const Color amber = Color(0xFFD98512);
+  static const Color amber = Color(0xFFFFA500);
   static const Color amberSurface = Color(0xFFFDF3E3);
-  static const Color red = Color(0xFFE5484D);
+  static const Color red = Color(0xFFDC3545);
   static const Color redSurface = Color(0xFFFDECED);
-  static const Color violet = Color(0xFF7A5AF8);
+  static const Color violet = Color(0xFF6F42C1);
   static const Color violetSurface = Color(0xFFF0EEFF);
 
   // Neutral
