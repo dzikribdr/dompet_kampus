@@ -43,6 +43,7 @@ class AppColors {
   static const Color bg = Color(0xFFF5F6FA);
   static const Color white = Color(0xFFFFFFFF);
   static const Color muted = Color(0xFF6C757D);
+  static const Color icon = Color(0xFF4B5E78);
 
   // Gradient
   static const LinearGradient primaryGradient = LinearGradient(
