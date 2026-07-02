@@ -34,6 +34,7 @@ class AppColors {
   static const Color line2 = Color(0xFFF3F5F8);
   static const Color bg = Color(0xFFF5F6FA);
   static const Color white = Color(0xFFFFFFFF);
+  static const Color muted = Color(0xFF6C757D);
 
   // Gradient
   static const LinearGradient primaryGradient = LinearGradient(
