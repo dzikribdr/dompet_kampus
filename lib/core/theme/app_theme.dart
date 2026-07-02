@@ -12,7 +12,7 @@ class AppTheme {
         seedColor: AppColors.primary,
         primary: AppColors.primary,
         onPrimary: Colors.white,
-        secondary: AppColors.green,
+        secondary: AppColors.secondary,
         surface: AppColors.white,
         background: AppColors.bg,
         error: AppColors.red,
