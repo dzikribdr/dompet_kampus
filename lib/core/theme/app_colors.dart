@@ -45,6 +45,7 @@ class AppColors {
   static const Color muted = Color(0xFF6C757D);
   static const Color icon = Color(0xFF4B5E78);
   static const Color badge = Color(0xFFDC3545);
+  static const Color scrollbar = Color(0xFFCBD2DD);
 
   // Gradient
   static const LinearGradient primaryGradient = LinearGradient(
