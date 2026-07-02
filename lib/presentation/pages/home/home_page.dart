@@ -416,7 +416,7 @@ class _HomePageState extends State<HomePage> {
           gradient: const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Color(0xFF0E1726), Color(0xFF21314D)],
+            colors: [AppColors.ink, AppColors.slate600],
           ),
           borderRadius: BorderRadius.circular(20),
         ),
