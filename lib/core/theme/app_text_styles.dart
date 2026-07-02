@@ -72,7 +72,7 @@ class AppTextStyles {
     fontFamily: _font,
     fontSize: 12.5,
     fontWeight: FontWeight.w500,
-    color: AppColors.slate400,
+    color: AppColors.slate500,
   );
   static const TextStyle label = TextStyle(
     fontFamily: _font,
