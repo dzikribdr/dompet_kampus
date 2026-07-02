@@ -33,6 +33,7 @@ class AppColors {
   static const Color active = Color(0xFF0D6EFD);
   static const Color disabled = Color(0xFFADB5BD);
   static const Color buttonHover = Color(0xFF004099);
+  static const Color linkHover = Color(0xFF0056B3);
   static const Color success = Color(0xFF28A745);
   static const Color warning = Color(0xFFFFA500);
   static const Color info = Color(0xFF17A2B8);
