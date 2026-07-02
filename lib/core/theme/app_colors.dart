@@ -30,6 +30,10 @@ class AppColors {
   static const Color slate500 = Color(0xFF6B7A90);
   static const Color slate400 = Color(0xFF9DABBE);
   static const Color slate300 = Color(0xFFCBD2DD);
+  static const Color active = Color(0xFF0D6EFD);
+  static const Color disabled = Color(0xFFADB5BD);
+  static const Color buttonHover = Color(0xFF004099);
+  static const Color success = Color(0xFF28A745);
   static const Color line = Color(0xFFE8ECF2);
   static const Color line2 = Color(0xFFF3F5F8);
   static const Color bg = Color(0xFFF5F6FA);
