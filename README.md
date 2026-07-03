@@ -1,5 +1,14 @@
 # CashLess
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+</p>
+
 ### Project UAS Mobile Programming
 
 - Mata Kuliah : Aplikasi Mobile Lanjutan
@@ -97,6 +106,28 @@ cashless/
 ├── pubspec.yaml                   # Manajemen dependensi aplikasi
 └── README.md                      # Dokumentasi utama
 ```
+
+## Arsitektur Sistem
+
+Berikut adalah diagram alur integrasi antara **FrozenFood (E-Commerce)** dan **CashLess (E-Money)** saat proses pembayaran terjadi:
+
+```mermaid
+sequenceDiagram
+    participant FF as FrozenFood (E-Commerce)
+    participant CL as CashLess (E-Money)
+    participant BE as Backend CashLess (Go + Gin)
+
+    FF->>CL: Checkout & Panggil Deep Link (dompetkampus://pay?amount=...)
+    CL-->>CL: Tampilkan Detail Pembayaran
+    CL-->>CL: Validasi PIN Transaksi
+    CL-->>CL: Validasi Two-Factor Authentication (2FA)
+    CL->>BE: Proses Transaksi & Potong Saldo
+    BE-->>CL: Transaksi Sukses
+    CL->>FF: Callback Deep Link (frozenfood://payment-callback?status=success)
+    FF-->>FF: Konfirmasi & Update Status Pesanan
+```
+
+> Catatan desain: status pesanan **tidak hanya dipercaya dari callback deep link** — FrozenFood tetap mengonfirmasi status pembayaran ke backend-nya sendiri lewat REST API, supaya database selalu jadi sumber kebenaran (*single source of truth*).
 
 ## Implementasi Deep Link & Keamanan Berlapis
 
