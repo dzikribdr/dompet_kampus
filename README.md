@@ -127,7 +127,7 @@ sequenceDiagram
     FF-->>FF: Konfirmasi & Update Status Pesanan
 ```
 
-> Catatan desain: status pesanan **tidak hanya dipercaya dari callback deep link** — FrozenFood tetap mengonfirmasi status pembayaran ke backend-nya sendiri lewat REST API, supaya database selalu jadi sumber kebenaran (*single source of truth*).
+> Catatan desain: status pesanan **tidak hanya dipercaya dari callback deep link** — FrozenFood tetap mengonfirmasi status pembayaran ke backend-nya sendiri lewat REST API, supaya database selalu jadi sumber kebenaran (_single source of truth_).
 
 ## Implementasi Deep Link & Keamanan Berlapis
 
@@ -178,7 +178,7 @@ Layanan backend dibangun menggunakan bahasa **Go** dengan framework **Gin Gonic*
 
 1. Clone repository ke mesin lokal:
    ```bash
-   git clone [URL_REPOSITORY_ANDA]
+   git clone https://github.com/dzikribdr/dompet_kampus
    ```
 2. Masuk ke direktori proyek:
    ```bash
