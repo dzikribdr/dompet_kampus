@@ -210,10 +210,10 @@ Layanan backend dibangun menggunakan bahasa **Go** dengan framework **Gin Gonic*
 
 ## Repositories & Demo
 
-- **Frontend (CashLess):** [Isi link repository Anda]
-- **Backend (be-emoney):** [Isi link repository Anda]
-- **Demo Presentasi:** [Isi link video demo Anda]
-- **Download APK:** [Isi link rilis APK Anda]
+- **Frontend (CashLess):** https://github.com/dzikribdr/dompet_kampus
+- **Backend (be-emoney):** https://github.com/dzikribdr/be-emoney
+- **Demo Presentasi:** menyusul
+- **Download APK:** menyusul
 
 ---
 
