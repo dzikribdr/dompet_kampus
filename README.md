@@ -50,10 +50,14 @@ Aplikasi ini juga sebagai project tugas akhir UAS mata kuliah mobile programming
 ## Preview Aplikasi
 
 <p align="center">
-    <img src="assets/images/ss.png" width="160"/>
-    <img src="assets/images/ss2.png" width="160"/>
-    <img src="assets/images/ss3.png" width="160"/>
-    <img src="assets/images/ss4.png" width="160"/>
+    <img src="assets/images/splash.jpeg" width="160"/>
+    <img src="assets/images/daftar.jpeg" width="160"/>
+    <img src="assets/images/masuk.jpeg" width="160"/>
+    <img src="assets/images/home.jpeg" width="160"/>
+    <img src="assets/images/profile.jpeg" width="160"/>
+</p>
+<p align="center">
+    Splash Screen &nbsp;|&nbsp; Daftar &nbsp;|&nbsp; Masuk &nbsp;|&nbsp; Home &nbsp;|&nbsp; Profile
 </p>
 
 ## Struktur Project (Clean Architecture)
