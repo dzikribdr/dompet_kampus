@@ -214,8 +214,7 @@ Layanan backend dibangun menggunakan bahasa **Go** dengan framework **Gin Gonic*
 - **Backend (be-emoney):** https://github.com/dzikribdr/be-emoney
 - **Frontend (FrozenFood):** https://github.com/dzikribdr/frozen_food_1123150049
 - **Backend (be-frozenfood):** https://github.com/dzikribdr/gin-firebase-backend
-- **Demo Presentasi:** menyusul
-- **Download APK:** menyusul
+- **Demo Presentasi:** https://www.youtube.com/watch?v=UhlI0ovDtSA
 
 ---
 
